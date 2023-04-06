@@ -14,7 +14,7 @@ section .intro {
 }
 
 /* added a div and the below helped to center and left align the about me to rght before the footer*/
-div {
+main {
     width: 50%;
     margin: auto;
 }
@@ -25,6 +25,7 @@ body {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCcVfBJVlPcfxatXJ4BZoAYqzMrE2wC0sBdg&usqp=CAU");
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 /* adjusting all header text*/
@@ -129,6 +130,6 @@ footer>p {
 }
 
 /* text contact me adjusted with underline*/
-footer>nav>ul>h3 {
+footer>nav>h3 {
     text-decoration: underline;
 }
